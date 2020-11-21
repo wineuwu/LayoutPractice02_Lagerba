@@ -3,14 +3,16 @@
 .container{
 
   width: 100%;
-  
   margin:auto;
 }
 
-.row{display: flex;}
+.row{
+  display: flex;
+
+}
 *[class*="col"]{
   box-sizing: border-box;
-  border: 0.5px solid #eeee;
+  
 }
 
 

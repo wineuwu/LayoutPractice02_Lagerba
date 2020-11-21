@@ -10,22 +10,57 @@ h1 {
 
   font-size: 48px;
   color:#fff;
+  letter-spacing: .4px;
+  line-height: 1.6;
   
 }
 
 
 h2{
-  
-  font-family: 'Merriweather', serif;
+
   font-size: 40px;
+  color:#252525;
+  font-weight: 300;
+  line-height: 1.55;
   
 }
 
+h5{
+font-family:none;
+font-size: 18px;
+color:#66b8e0;
+font-weight: 300;
+line-height: 50px;
+}
+
 a {
-  
+  font-family: Arial, Helvetica, sans-serif;
   display:inline-block;
   text-decoration: none;
-  padding:25px 12px;
+ 
+  
+  
+}
+
+.btn{
+
+  color: #fff;
+  width: 180px;
+  background-color: #fc8f44;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  padding: 12px 25px;
+  text-align: center;
+  margin-top:50px ;
+  line-height: 1.5;
+  text-shadow: 0px 1px 6px rgba(1, 1, 1, 0.2);
+}
+
+.btn:hover{
+
+  background:#f08237;
+  transition:.8s;
   
 }
 
@@ -36,8 +71,10 @@ a {
 .menu a{
   
   color:#2379a3;
-  border: .5px solid #eee;
+  /* border: .5px solid #eee; */
   font-size: 16px;
+  padding:25px 12px;
+  box-sizing: border-box;
   
 }
 
@@ -48,18 +85,25 @@ header.menu{
   background: #003C59;
   position: fixed;
   top:0; 
+ 
+  font-size: 0px;
+}
+
+.menu-bar{
+  align-items: center;
 }
     
 .menu-logo p{
-  font-size: 35px;
-  color: #fff;
-  line-height: 2;
+  font-size: 30px;
+  color: aliceblue;
+  line-height: 1.5;
+  
 }
 
-.banner{
-  
+.banner-bg{
+  padding-top:65px ;
   width: 100%;
-  height:700px;
+  height: 700px;
   background-color: #003C59;
   background-image:url("images/page01_img01.png");
   background-repeat: no-repeat;
@@ -67,6 +111,25 @@ header.menu{
   margin: auto;
   text-align: center;
   box-sizing: border-box;
+}
+
+.banner-item{
+  
+  padding-top: 60px;
+}
+
+
+.intro-bg {
+
+  background: #edf4f8;
+ 
+}
+
+.intro-content{
+  width:100%;
+  max-width: 1200px;
+  flex-direction: row-reverse;
+  margin: auto ;
 }
 
 
