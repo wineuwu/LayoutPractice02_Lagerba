@@ -144,16 +144,24 @@ header.menu{
 }
 
 .banner-bg{
-  padding-top:65px ;
+  padding-top:70px ;
   width: 100%;
   height: 700px;
   background-color: #003C59;
   background-image:url("images/page01_img01.png");
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center center;
   margin: auto;
   text-align: center;
   box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {
+  .banner-bg{
+    
+    background-size:auto;
+  }
+
 }
 
 .banner-item{
