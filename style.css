@@ -6,6 +6,16 @@ body{
   font-family: 'Merriweather', serif;
 }
 
+.bg{
+  width: 100%;
+  max-width: 1200px;
+  margin:auto;
+  padding-top: 70px;
+}
+img{
+  width:100%;
+}
+
 h1 {
 
   font-size: 48px;
@@ -23,7 +33,31 @@ h2{
   font-weight: 300;
   line-height: 1.55;
   
+  
 }
+
+h3{
+
+  padding-right:10px;
+  padding: 25px 0 20px;
+  font-size: 32px;
+  line-height: 1.3;
+  color:#555;
+  word-spacing: 3px;
+  font-weight: 300;
+  white-space:pre-wrap;
+  
+}
+
+h4{
+
+  color: #555555;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.45;
+
+}
+
 
 h5{
 font-family:none;
@@ -33,17 +67,26 @@ font-weight: 300;
 line-height: 50px;
 }
 
+p{
+  font-family: none;
+  
+  color:#7d7d7d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+ 
+}
+
 a {
-  font-family: Arial, Helvetica, sans-serif;
+  
   display:inline-block;
   text-decoration: none;
  
-  
-  
 }
 
-.btn{
 
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   width: 180px;
   background-color: #fc8f44;
@@ -119,17 +162,26 @@ header.menu{
 }
 
 
-.intro-bg {
+.intro-bg ,.feature-bg  {
 
   background: #edf4f8;
  
+  
 }
 
 .intro-content{
-  width:100%;
-  max-width: 1200px;
   flex-direction: row-reverse;
-  margin: auto ;
 }
 
+.item-img img{width:60%;}
+
+.reason-content{
+
+  padding-bottom: 70px;
+
+}
+.reason-title{
+  text-align: center;
+  }
+.reason-item{padding: 40px 0;}
 
