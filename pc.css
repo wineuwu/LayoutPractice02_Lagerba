@@ -5,6 +5,41 @@
     text-align: left;
   }
 
+  
+  
+  .menu a{
+    
+    color:#2379a3;
+    /* border: .5px solid #eee; */
+    font-size: 16px;
+    padding:25px 12px;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  header.menu{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    background: #003C59;
+    position: fixed;
+    top:0; 
+   
+    font-size: 0px;
+  }
+  
+  .menu-bar{
+    align-items: center;
+  }
+      
+  .menu-logo p{
+    font-size: 30px;
+    color: aliceblue;
+    line-height: 1.5;
+    
+  }
+
   .bg{max-width: 1200px;}
 
   h1{ font-size: 48px;}
@@ -50,6 +85,23 @@
 
     width: 300px;
     
+    
+    }
+    .comment{text-align: center;}
+  
+    .comment-img{
+
+      width: 38px;
+      height:33px;
+      margin:auto;
+      
+    
+    }
+   
+    
+    .comment-scroll  p.txt{
+     
+      padding: 20px 150px;
     
     }
   

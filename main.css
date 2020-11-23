@@ -8,6 +8,7 @@ body{
 
 
 header{
+  
   width: 100%;
   margin:auto;
   background: #003C59;
@@ -585,7 +586,7 @@ section.section-comment{
   width: 12px;
   height: 12px;
   outline: none;
-  cursor: pointer;
+  cursr: pointer;
   background-color: #f38b59;
   
 }
