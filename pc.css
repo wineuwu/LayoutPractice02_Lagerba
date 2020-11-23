@@ -1,0 +1,59 @@
+@media screen and (min-width :768px) {
+
+  body{
+
+    text-align: left;
+  }
+
+  .bg{max-width: 1200px;}
+
+  h1{ font-size: 48px;}
+
+  h2{font-size: 40px;}
+
+  h3{
+
+    padding-right:10px;
+    
+    font-size: 32px;
+    color:#555;
+    word-spacing: 3px;
+   
+    white-space:pre-wrap;
+  }
+
+
+  h5{font-size: 18px;}
+
+  p{
+    
+    font-size: 16px;
+
+  }
+  .reason-item{padding: 40px 0;}
+
+  .item-img img{
+
+    width: 60%;
+  }
+
+  input.email{
+    
+    width: 450px;
+    margin-right:40px;
+    padding: 8px 18px;
+  
+  
+}
+
+  button.cta-email{
+
+    width: 300px;
+    
+    
+    }
+  
+  
+
+
+}
